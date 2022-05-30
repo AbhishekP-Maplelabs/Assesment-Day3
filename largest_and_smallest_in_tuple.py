@@ -9,7 +9,7 @@ def largest_smallest(number_1):
     for i in range(number_1):
         LIST.append(input())
     TUPLE=tuple(LIST)
-    print(TUPLE)
+    print(f"The entered tuple is: {TUPLE}")
     LARGEST=TUPLE[0]
     SMALLEST=TUPLE[0]
     for i in range(1,len(TUPLE)):
@@ -21,6 +21,7 @@ def largest_smallest(number_1):
     print(f"The smallet item in the tuple is: {SMALLEST}")
 try:
     NUMBER=int(input("ENter the number of elements: "))
+    print("Enter the elements:")
     largest_smallest(NUMBER)
 except Exception as e:
     print("Enter valid input")
