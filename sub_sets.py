@@ -19,8 +19,8 @@ class GetSubset:
         return [curr]
 try:
     my_list = []
-    num_elem = int(input("Enter the number of elements in the list: "))
-    for i in range(0,num_elem):
+    NUMBER = int(input("Enter the number of elements in the list: "))
+    for i in range(0,NUMBER):
         elem=int(input())
         my_list.append(elem)
     print("Subsets of the list are : ")
